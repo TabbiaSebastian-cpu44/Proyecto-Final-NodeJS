@@ -45,3 +45,5 @@ app.listen(
         console.log(` Servidor corriendo en http://localhost:${ENVIRONMENT.PORT}`)
     }
 )
+// Exportar para Vercel
+export default app
